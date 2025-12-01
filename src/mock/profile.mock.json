@@ -1,0 +1,36 @@
+{
+  "profileData": {
+    "userInfo": {
+      "houseNo": "1栋3单元502",
+      "name": "张三",
+      "phone": "138****1234",
+      "area": 120,
+      "verifyStatus": "verified",
+      "voteWeight": 1.2
+    },
+    "joinRecords": [
+      {
+        "type": "发起人报名",
+        "time": "2024-11-02 10:30",
+        "status": "已通过",
+        "desc": "已通过街道办审核"
+      }
+    ],
+    "voteRecords": [
+      {
+        "event": "筹备组成员选举",
+        "time": "2024-11-12 15:20",
+        "voteFor": "张三",
+        "desc": "已投票"
+      }
+    ],
+    "feedbackRecords": [
+      {
+        "id": "f1",
+        "content": "筹备组职责咨询",
+        "time": "2024-11-08 14:30",
+        "status": "已回复"
+      }
+    ]
+  }
+}

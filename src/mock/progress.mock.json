@@ -1,0 +1,81 @@
+{
+  "progressData": {
+    "timeline": [
+      {
+        "time": "2024-11-01",
+        "event": "发起申请提交",
+        "desc": "5名热心业主联合提交《成立业委会申请书》至XX街道办",
+        "attachment": "/mock/files/申请书提交凭证.jpg",
+        "status": "completed"
+      },
+      {
+        "time": "2024-11-05",
+        "event": "街道办批复",
+        "desc": "同意启动小车小区业委会创建工作，要求15日内完成筹备组招募",
+        "attachment": "/mock/files/街道办批复文件.pdf",
+        "status": "completed"
+      },
+      {
+        "time": "2024-11-08",
+        "event": "发起人名单公示",
+        "desc": "在小区公告栏、微信群公示发起人名单，公示期5天",
+        "attachment": "",
+        "status": "completed"
+      },
+      {
+        "time": "2024-11-15",
+        "event": "筹备组招募启动",
+        "desc": "开始招募筹备组成员，报名截止时间为11月30日",
+        "attachment": "",
+        "status": "ongoing"
+      },
+      {
+        "time": "2024-11-30",
+        "event": "筹备组成员公示",
+        "desc": "公示筹备组成员名单，公示期7天",
+        "attachment": "",
+        "status": "pending"
+      },
+      {
+        "time": "2024-12-10",
+        "event": "业主认证启动",
+        "desc": "开始业主身份认证，核实投票权数",
+        "attachment": "",
+        "status": "pending"
+      }
+    ],
+    "publicityList": [
+      {
+        "type": "initiator",
+        "title": "发起人名单公示",
+        "list": [
+          "张三（1栋101）",
+          "李四（2栋302）",
+          "王五（3栋205）",
+          "赵六（4栋108）",
+          "钱七（5栋401）"
+        ],
+        "publicityDays": 5,
+        "startTime": "2024-11-08",
+        "endTime": "2024-11-13",
+        "status": "已结束"
+      },
+      {
+        "type": "preparatory",
+        "title": "筹备组成员报名公告",
+        "list": [],
+        "publicityDays": 15,
+        "startTime": "2024-11-15",
+        "endTime": "2024-11-30",
+        "status": "进行中"
+      }
+    ],
+    "countdown": {
+      "title": "筹备组报名截止",
+      "endTime": "2024-11-30 24:00",
+      "remainingDays": 14,
+      "remainingHours": 6,
+      "remainingMinutes": 20
+    }
+  }
+}

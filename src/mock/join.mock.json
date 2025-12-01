@@ -1,0 +1,52 @@
+{
+  "joinData": {
+    "currentApplyType": "initiator",
+    "applyForm": [
+      {
+        "field": "houseNo",
+        "name": "房号",
+        "required": true,
+        "placeholder": "如1栋3单元502"
+      },
+      {
+        "field": "name",
+        "name": "姓名",
+        "required": true,
+        "placeholder": "请输入真实姓名"
+      },
+      {
+        "field": "phone",
+        "name": "联系方式",
+        "required": true,
+        "placeholder": "请输入手机号"
+      },
+      {
+        "field": "idCard",
+        "name": "身份证号",
+        "required": false,
+        "placeholder": "选填，用于身份验证"
+      }
+    ],
+    "votingStatus": false,
+    "mockVotes": [
+      {
+        "candidateName": "张三",
+        "candidateInfo": "1栋101，热心公益，曾任小区志愿者",
+        "voteCount": 35,
+        "percent": 52.2
+      },
+      {
+        "candidateName": "李四",
+        "candidateInfo": "2栋302，从事法律工作，熟悉相关法规",
+        "voteCount": 28,
+        "percent": 41.8
+      },
+      {
+        "candidateName": "王五",
+        "candidateInfo": "3栋205，退休干部，有管理经验",
+        "voteCount": 4,
+        "percent": 6.0
+      }
+    ]
+  }
+}

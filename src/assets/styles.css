@@ -1,0 +1,100 @@
+/* 全局样式 */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #1989fa;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.btn:active {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background: #1989fa;
+}
+
+.btn-success {
+  background: #07c160;
+}
+
+.btn-default {
+  background: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  background: #f0f0f0;
+  color: #666;
+}
+
+.badge-success {
+  background: #e6f7ff;
+  color: #1989fa;
+}
+
+.badge-warning {
+  background: #fff7e6;
+  color: #fa8c16;
+}
+
+.badge-error {
+  background: #fff1f0;
+  color: #f5222d;
+}
+
+.divider {
+  height: 1px;
+  background: #f0f0f0;
+  margin: 16px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #999;
+}
+
+.text-primary {
+  color: #1989fa;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.p-16 {
+  padding: 16px;
+}

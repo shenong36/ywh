@@ -1,0 +1,128 @@
+{
+  "guideData": [
+    {
+      "phaseId": "initiative",
+      "phaseName": "发起倡议阶段",
+      "desc": "由热心业主发起，收集业主签名，向街道办提交成立申请",
+      "steps": [
+        { "step": 1, "content": "联系3-5名热心业主作为联合发起人" },
+        { "step": 2, "content": "起草《成立业委会申请书》" },
+        { "step": 3, "content": "收集至少20%业主签名支持" }
+      ],
+      "materials": [
+        { "name": "成立业委会申请书（模板）", "url": "/mock/files/申请书模板.docx" },
+        { "name": "业主签名表（模板）", "url": "/mock/files/签名表模板.xlsx" }
+      ],
+      "faq": [
+        {
+          "question": "发起人需要满足什么条件？",
+          "answer": "需为小车小区产权人，按时缴纳物业费，无违法违规记录"
+        }
+      ]
+    },
+    {
+      "phaseId": "preparatory",
+      "phaseName": "成立筹备组阶段",
+      "desc": "街道办批准后，组建筹备组，负责业委会选举筹备工作",
+      "steps": [
+        { "step": 1, "content": "街道办发布筹备组组建公告" },
+        { "step": 2, "content": "业主报名参加筹备组" },
+        { "step": 3, "content": "公示筹备组成员名单" },
+        { "step": 4, "content": "召开筹备组第一次会议" }
+      ],
+      "materials": [
+        { "name": "筹备组成员报名表", "url": "/mock/files/筹备组报名表.xlsx" },
+        { "name": "筹备组工作方案", "url": "/mock/files/筹备组工作方案.docx" }
+      ],
+      "faq": [
+        {
+          "question": "筹备组成员需要承担什么职责？",
+          "answer": "筹备组负责组织业主大会、制定选举规则、统计投票结果等工作"
+        }
+      ]
+    },
+    {
+      "phaseId": "verification",
+      "phaseName": "业主认证阶段",
+      "desc": "核实业主身份、房屋面积，确定投票权数",
+      "steps": [
+        { "step": 1, "content": "业主提交房产证明材料" },
+        { "step": 2, "content": "筹备组核实业主信息" },
+        { "step": 3, "content": "公示业主名册及投票权数" },
+        { "step": 4, "content": "受理业主异议" }
+      ],
+      "materials": [
+        { "name": "业主认证申请表", "url": "/mock/files/业主认证申请表.xlsx" }
+      ],
+      "faq": [
+        {
+          "question": "投票权数如何计算？",
+          "answer": "按房屋面积计算，每100㎡计为1票，不足100㎡按比例计算"
+        }
+      ]
+    },
+    {
+      "phaseId": "meeting",
+      "phaseName": "业主大会阶段",
+      "desc": "召开首次业主大会，表决业委会章程、选举办法",
+      "steps": [
+        { "step": 1, "content": "发布业主大会召开通知" },
+        { "step": 2, "content": "公示《业委会章程》草案" },
+        { "step": 3, "content": "召开业主大会" },
+        { "step": 4, "content": "表决通过章程及选举办法" }
+      ],
+      "materials": [
+        { "name": "业主大会通知", "url": "/mock/files/业主大会通知.docx" },
+        { "name": "业委会章程（草案）", "url": "/mock/files/业委会章程.docx" }
+      ],
+      "faq": [
+        {
+          "question": "业主大会如何召开？",
+          "answer": "可采用集中投票、分散投票、书面征求意见等方式"
+        }
+      ]
+    },
+    {
+      "phaseId": "voting",
+      "phaseName": "投票选举阶段",
+      "desc": "业主投票选举业委会委员，确定主任、副主任",
+      "steps": [
+        { "step": 1, "content": "公示候选人名单" },
+        { "step": 2, "content": "组织业主投票" },
+        { "step": 3, "content": "统计投票结果" },
+        { "step": 4, "content": "公示当选委员名单" }
+      ],
+      "materials": [
+        { "name": "候选人报名表", "url": "/mock/files/候选人报名表.xlsx" },
+        { "name": "投票表决票", "url": "/mock/files/投票表决票.pdf" }
+      ],
+      "faq": [
+        {
+          "question": "业委会委员需要几人？",
+          "answer": "根据小区规模，一般为5-11人单数"
+        }
+      ]
+    },
+    {
+      "phaseId": "filing",
+      "phaseName": "备案完成阶段",
+      "desc": "向街道办、房管部门备案，领取业委会印章",
+      "steps": [
+        { "step": 1, "content": "准备备案材料" },
+        { "step": 2, "content": "向街道办提交备案申请" },
+        { "step": 3, "content": "街道办审核并出具备案证明" },
+        { "step": 4, "content": "刻制业委会公章" }
+      ],
+      "materials": [
+        { "name": "备案申请表", "url": "/mock/files/备案申请表.docx" },
+        { "name": "业委会成立决议", "url": "/mock/files/成立决议.docx" }
+      ],
+      "faq": [
+        {
+          "question": "备案需要多长时间？",
+          "answer": "街道办一般在15个工作日内完成审核"
+        }
+      ]
+    }
+  ]
+}
